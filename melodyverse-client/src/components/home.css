@@ -1,0 +1,35 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    height:100vh;
+  }
+  
+  h1{
+    font-size: 3rem;
+  color: black;
+  font-style: italic;
+  font-family: cursive;
+
+  }
+  
+  .music-features {
+    margin-top: 20px;
+  }
+  
+  .feature-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .feature-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
