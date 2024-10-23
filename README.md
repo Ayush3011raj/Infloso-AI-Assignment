@@ -4,8 +4,10 @@ For running the backend:
 
 1. **Navigate to the backend directory:**
        cd backend
+   
     **Install the dependencies:**
        npm install
+   
     **Run the backend server:**
       npm run dev
       or
