@@ -10,8 +10,7 @@ For running the backend:
    
     **Run the backend server:**
       npm start
-      or
-      nodemon server.js
+      (or use nodemon server.js)
 
 This will start the server using Nodemon, which automatically restarts the server when file changes are detected at localhost:4000
 
