@@ -9,7 +9,7 @@ For running the backend:
        npm install
    
     **Run the backend server:**
-      npm run dev
+      npm start
       or
       nodemon server.js
 
