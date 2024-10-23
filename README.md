@@ -31,6 +31,6 @@ This will start the React development server, and you can access the application
 **Features**
 
     1.User Authentication: Secure login and signup with JWT.
-    2.Password Reset: Users can reset their passwords easily.
+    2.Forget Password: If user forgets password he/she can reset it easily.
     3.Responsive Design: The application is designed to work on both desktop and mobile devices.
     4.Musical Theme: The overall design is inspired by a musical theme, creating an engaging user experience.
