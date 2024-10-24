@@ -19,7 +19,7 @@ const db = new pg.Client({
   user: "postgres",
   host: process.env.ip,
   database: "connectverse",
-  password: "Ayush#123",
+  password: process.env.passwor,
   port: 5432,
 });
 
