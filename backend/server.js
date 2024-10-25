@@ -16,11 +16,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const db = new pg.Client({
-  user: "postgres",
-  host: process.env.ip,
-  database: "connectverse",
-  password: process.env.passwor,
-  port: 5432,
+  connectionString: process.env.DATABASE_URL, 
+  ssl: {
+    rejectUnauthorized: false, 
+  },
 });
 
 db.connect();
